@@ -25,6 +25,8 @@ func TestDivide(t *testing.T) {
 
   // loop over the test cases
   for _, tc := range testcases {
+
+    // create sub tests for each test case with t.Run
     t.Run(tc.name, func(t *testing.T) {
 
       // what the function is expected to return
